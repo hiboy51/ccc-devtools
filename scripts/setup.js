@@ -2,7 +2,7 @@ const fse = require('fs-extra');
 const path = require('path');
 
 const localTemplatePath = path.join(__dirname, '../release/');
-const projectTemplatePath = '/Users/next/projects/cocos/example352/';
+const projectTemplatePath = '/Users/kinnonz/zuma-client';
 
 if (!fse.existsSync(projectTemplatePath)) {
     console.error('project path not exist');
